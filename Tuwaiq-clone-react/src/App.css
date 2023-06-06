@@ -1,0 +1,33 @@
+.text-hero{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-hero h1{
+  color: #fff;
+  font-size: 60px;
+}
+.text-hero .btn-hero{
+  background-color: #91d8db;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 20px 200px;
+  border-radius: 35px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.text-hero .btn-hero a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
